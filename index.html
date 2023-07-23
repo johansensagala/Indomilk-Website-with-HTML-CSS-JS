@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="header1">
+        <table>
+            <tr>
+                <td><img src="foto/logoindomilk.png"></td>
+                <td class="other"><ul>
+                    <li class="bar"><a href="index.html">INDEX</a>
+                    <li class="bar"><a href="biodata.html">BIODATA</a>
+                    <li class="bar"><a href="contact_us.html">CONTACT US</a>
+                    <li class="bar"><a href="gallery.html">GALLERY</a>
+                    <li class="bar"><a href="motivation.html">MOTIVATION</a>
+                    <li class="bar"><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a>
+                    <li class="bar"><a href="https://unai.edu" target="_blank">UNAI</a>
+                    </ul>
+                </td>
+                <td class="other2"><ul>
+                    <li class="sos">|</li>
+                    <li class="sos"><a href="#"><img src="foto/pesbuk.png"></a></li>
+                    <li class="sos"><a href="#"><img src="foto/instagram.png"></a></li>
+                    <li class="sos"><a href="#"><img src="foto/twitter.png"></a></li>
+                    <li class="sos"><a href="#"><img src="foto/youtube.png"></a></li>
+                    <li class="sos"><div class="language">IND</div></li>
+                    <li class="sos"><div class="language">ENG</div></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="w3-content w3-display-container">
+        <img class="utama" src="foto/utama1.jpg" style="width:100%">
+        <img class="utama" src="foto/utama2.jpg" style="width:100%">
+        <img class="utama" src="foto/utama3.jpg" style="width:100%">
+        <img class="utama" src="foto/utama4.jpg" style="width:100%">
+        <img class="utama" src="foto/utama5.png" style="width:100%">
+        <img class="utama" src="foto/utama6.png" style="width:100%">
+        <img class="utama" src="foto/utama7.jpg" style="width:100%">
+        <img class="utama" src="foto/utama8.png" style="width:100%">  
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>    
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("utama");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";      
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+    <div class="about">
+        <p class="title">Tentang Kami</p>
+        <p class="subtitle">Kilas Indomilk</p><br>
+        <div class="flex8">
+            <div class="profil">
+                <p class="perusahaan">> PROFIL PERUSAHAAN</p><br><br><br>
+                <b>PT. INDOLAKTO</b><br>
+                <b>Alamat:</b><br>
+                Jl. Raya Bogor Km. 26,6 Jakarta 13710<br><br>
+                <b>Layanan Konsumen :</b><br>
+                <img src="foto/phone.png"> 0800 170 8888<br>
+                <img src="foto/mail.png"> layanan.konsumen@indomilk.com<br>
+                PO. BOX 2531 Jakarta 10001<br>
+                _____________________________________________
+            </div>
+            <div class="vm">
+                <b>1. V I S I</b><br>
+                "Menjadi pemimpin pasar susu di Indonesia dan membangun citra terkemuka di negara lain melalui produk-produk berkualitas"<br><br>
+                <b>M I S I</b><br>
+                Menciptakan nilai tambah perusahaan yang berkelanjutan dengan menghadirkan produk PT. INDOLAKTO yang berkualitas di seluruh dunia melalui manajemen usaha yang baik dan pemanfaatan peluang kerjasama dengan pihak asing maupun dalam negeri dengan sebaik-baiknya.<br><br>
+                <b>Sertifikat Halal</b><br>
+                Pada awal 1994, PT. INDOLAKTO adalah perusahaan susu pertama di Indonesia yang memperoleh rekomendasi untuk mencantumkan label 'HALAL' pada semua produknya setelah memenuhi persyaratan ketat yang diterapkan oleh Departemen Kesehatan, Departemen Agama dan Majelis Ulama Indonesia ( MUI ) dalam hal:<br>
+                > Bahan baku<br>
+                > Formula<br>
+                > Pengolahan<br>
+                > Peralatan<br>
+                > Kebersihan Sarana Kerja<br>
+                > Kontrol Mutu<br>
+                > Kemasan<br>
+                > Limbah<br><br>
+                <b>Piagam Bintang Tiga Keamanan Pangan</b><br>
+                Pada Maret 2007, PT. INDOLAKTO mendapatkan Piagam Bintang Tiga Keamanan Pangan (Food Star Award) dari Badan POM Republik Indonesia atas prestasinya dalam menerapkan Manajemen Keamanan Pangan berdasarkan Sistem HACCP, ISO 22000 secara konsisten.<br><br>
+                <b>Sistem Jaminan Halal</b><br>
+                Perusahaan menetapkan panduan Sistem Jaminan Halal dalam rangka menjamin kehalalan produk. Sistem Jaminan Halal merupakan sistem terpadu sebagai bagian yang tidak terpisahkan dari kebijakan mutu perusahaan, ISO 9001:2008, ISO 22000:2005, GMP, Internal Halal Audit yang berlaku di perusahaan sehingga dapat memberikan jaminan halal kepada konsumen atau pengguna produk. Panduan Sistem Jaminan Halal ditetapkan untuk dipahami oleh seluruh jajaran manajemen dan karyawan. Pada tahun 2008 dan 2009 perusahaan mendapatkan Status Sistem Jaminan Halal (SJH) dari LPPOM-MUI dengan kategori A (Baik).<br><br>
+                <b>Sertifikat ISO</b></br>
+                Perusahaan sangat peduli terhadap mutu produk yang dihasilkan dan karena itu menerapkan sistem manajemen mutu dan keamanan pangan serta sistem jaminan halal dalam rangka menghasilkan produk yang bermutu, aman, dan halal untuk memenuhi kepuasan pelanggan.<br><br>
+                 PT. INDOLAKTO telah mendapatkan sertifikat ISO sejak tahun 2000 hingga sekarang. Pada November 2008 perusahaan mendapatkan sertifikat ISO 22000:2005 untuk sistem manajemen keamanan pangan meliputi proses penerimaan raw material, proses produksi, pengendalian mutu dan penyimpanan barang jadi. Pada Oktober 2009 perusahaan mendapatkan ISO 9001:2008 untuk sistem manajemen mutu yang diterapkan untuk seluruh pabriknya.
+            </div>
+        </div><br><br><br><br><br><br><br><br><br>
+        <p class="title">Produk</p>
+        <p class="subtitle">Rangkaian Produk dari Indomilk</p><br>
+        <div class="flex2">
+            <div class="produk">
+                <a href="#"><img src="foto/susu1.png"><br></a>
+                <p><b>Susu Segar</b></p>
+                <p class="exp">Susu segar Indomilk terdiri dari 2 kategori pilihan yaitu Full Cream yang cocok bagi</p>
+                <p class="info"><a href="#">Info Lebih Lanjut</a></p>
+            </div>
+            <div class="produk">
+                <a href="#"><img src="foto/susu2.png"><br></a>
+                <p><b>Susu Kotak UHT</b></p>
+                <p class="exp">Susu kotak Ultra High Temperature (UHT) adalah hasil teknologi pengolahan.</p>
+                <p class="info"><a href="#">Info Lebih Lanjut</a></p>
+            </div>
+            <div class="produk">
+                <a href="#"><img src="foto/susu3.png"><br></a>
+                <p><b>Kental Manis</b></p>
+                <p class="exp">Kental Manis Indomilk hadir dengan 2 pilihan rasa yaitu Plain (Putih) & Cokelat.</p>
+                <p class="info"><a href="#">Info Lebih Lanjut</a></p>
+            </div>
+            <div class="produk">
+                <a href="#"><img src="foto/susu4.png"><br></a>
+                <p><b>Susu Botol Cair</b></p>
+                <p class="exp">Susu segar INDOMILK atau yang dikenal dengan Susu Pasteurisasi INDOMILK.</p>
+                <p class="info"><a href="#">Info Lebih Lanjut</a></p>
+            </div>
+            <div class="produk">
+                <a href="#"><img src="foto/susu5.png"><br></a>
+                <p><b>Susu Bubuk</b></p>
+                <p class="exp">Keistimewaan Susu Bubuk INDOMILK Omega 3 terletak pada Omega 3 LC PUFA.</p>
+                <p class="info"><a href="#">Info Lebih Lanjut</a></p>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br>
+        <p class="title">Resep</p><br><br>
+        <p class="title2">Temukan Inspirasi Kreasimu</p>
+        <p class="subtitle">Pilih Berdasarkan Kreasi dibawah Ini</p><br>
+        <div class="flex3">
+            <div class="resep">
+                <a href="#"><img src="foto/resep1.jpg" width="220px" height="180px"><br></a>
+                <p class="namamakanan"><a href="#">Roti Jala Kari Ayam</a></p>
+            </div>
+            <div class="resep">
+                <a href="#"><img src="foto/resep2.jpg" width="220px" height="180px"><br></a>
+                <p class="namamakanan"><a href="#">Martabak Greentea Cake</a></p>
+            </div>
+            <div class="resep">
+                <a href="#"><img src="foto/resep3.jpg" width="220px" height="180px"><br></a>
+                <p class="namamakanan"><a href="#">Caramel chocolate Cake</a></p>
+            </div>
+            <div class="resep">
+                <a href="#"><img src="foto/resep4.jpg" width="220px" height="180px"><br></a>
+                <p class="namamakanan"><a href="#">Tiramissu Nut Butter Pie</a></p>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div class="footer"><br><br><br>
+        <p class="title">Agenda</p>
+        <p class="subtitle">Selalu update dengan berita terbaru dari Indomilk</p><br>
+        <div class="flex4">
+            <div class="promoimage">
+                <a href="#"><img src="foto/agenda1.png"><br></a>
+            </div>
+            <div class="promo1">
+                <p class="pengumuman"><b>Pengumuman Pemenang Promo GEMAS</b></p>
+                <p class="baca"><a href="#">baca disini ></a></p>
+            </div>
+            <div class="promoimage2">
+                <a href="#"><img src="foto/agenda1.png"><br></a>
+            </div>
+            <div class="promo1">
+                <p class="pengumuman"><b>Pengumuman Pemenang Promo GEMAS</b></p>
+                <p class="baca"><a href="#">baca disini ></a></p>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div><p class="title">Layanan Komersil</p></div>
+        <table class="layanan">
+            <tr>
+                <td class="komersil"><ul>
+                    <li class="inf"><a href="#">INFORMASI</a></li>
+                    <li class="pro"><a href="#">PRODUK</a></li>
+                    <li class="pro"><a href="#">DISTRIBUTOR</a></li>
+                </ul></td>
+            </tr>
+        </table>
+        <div class="flex5">
+            <div class="chef">
+                <a href="#"><img src="foto/koki.jpg"><br></a>
+            </div>
+            <div class="indolakto">
+                <p class="indolaktotitle"><b>Indolakto adalah solusi yang tepat untuk bisnis anda</b></p>
+                <p class="indolaktoexplanation">
+                    Sejalan dengan visi dan misi Indolakto, kami membuat produk-produk susu dan olahannya yang diperuntukkan untuk kebutuhan bisnis Anda baik skala industri hingga UKM, dimana pun bisnis Anda berada.<br><br>
+                    Kualitas, kesegaran dan ketersediaan produk untuk kepentingan bisnis Anda menjadi prioritas kami.<br><br>
+                    Keunggulan produk-produk kami adalah keterjagaan kualitas dan kesegaran produk. Kami memastikan pemilihan kualitas susu sapi yang digunakan hanya yang terbaik, proses produksi yang dilakukan dengan standar yang tertinggi serta distribusi kami menggaransi produk tiba di tangan Anda dengan baik dan tepat waktu.
+                </p>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p class="title">Hubungi Kami</p>
+        <p class="subtitle">Siap melayani pertanyaan anda<br>Silahkan isi form dibawah ini</p><br>
+        <div class="flex6">
+            <div class="information">
+                <p class="ptname">PT INDOLAKTO</p>
+                <div class="flexinfo">
+                    <div class="adress">Alamat: <br>Jl. Raya Bogor Km. 26,6 <br>Jakarta 13710</div>
+                    <div class="layanankonsumen">Layanan Konsumen :<br><img src="foto/phone-white.png">(Bebas Pulsa) 0800 170 8888<br><img src="foto/mail-white.png">layanan.konsumen@indomilk.com<br>PO. BOX 2531 Jakarta 10001</div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.4303549186197!2d106.869579!3d-6.338264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5badcfa6099aecae!2sPT%20Indolakto!5e0!3m2!1sen!2sus!4v1634468739726!5m2!1sen!2sus" width="400" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="space2"></div>
+            <div class="formulir">
+                <p>Kirim pesan</p>
+                <form action="action_page.php">
+                    <input class="a" type="text" id="name" placeholder="Nama"><br>
+                    <div class="flexform">
+                        <input class="b" type="text" id="email" placeholder="Email">
+                        <div class="space2"></div>
+                        <input class="b" type="text" id="companyname" placeholder="Company Name">
+                    </div>
+                    <div class="flexform">
+                        <input class="b" type="text" id="telepon" placeholder="Nomor Telepon/Phone Number">
+                        <div class="space2"></div>
+                        <input class="b" type="text" id="fax" placeholder="Fax">
+                    </div>
+                    <div class="flexform">
+                        <input class="b" type="text" id="cell" placeholder="Cell Number">
+                        <div class="space2"></div>
+                        <input class="b" type="text" id="country" placeholder="Country">
+                    </div>
+                    <div class="flexform">
+                        <input class="b" type="text" id="provinsi" placeholder="Provinsi">
+                        <div class="space2"></div>
+                        <input class="b" type="text" id="kabkota" placeholder="Kabupaten/Kota">
+                    </div>
+                    <input class="a" type="text" id="postcode" placeholder="Post Code"><br>
+                    <input class="a" type="text" id="adress" placeholder="Adress"><br>
+                    <textarea class="c" type="textarea" id="pesan" placeholder="Pesan"></textarea>
+                    <input class="d" id="e" type="submit" value="Kirim">
+                </form>
+            </div>
+        </div><br><br><br><br><br><br><br><br>
+        <div class="flex7">
+            <div class="indofood">
+                <a href="#"><img src="foto/indofood.png"><br></a>
+            </div>
+            <p class="site">This site is best viewed in Google Chrome, Mozilla Firefox, Opera, Safari and IE</p>
+            <p class="hak">HAK CIPTA © PT INDOLAKTO . 2016</p>
+        </div><br><br><br>
+</body>
+</html>

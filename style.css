@@ -1,0 +1,492 @@
+body{
+    background-color: #BAE5F2;
+    margin: 0;
+}
+
+.header1{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 0.01px 30px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
+.other{
+    padding: 5px;
+    list-style-type: none;
+    color: yellow;
+    text-align: center;
+}
+
+.other2{
+    color: #0368ca;
+    padding: 10px 25px;
+}
+
+.bar{
+    display: inline;
+    padding: 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.sos{
+    display: inline;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0368ca;
+    padding-bottom: 30px;
+}
+
+.bar a:hover{
+    border-bottom: 4px solid #0368ca;
+}
+
+.language{
+    display: inline;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    text-decoration: bold;
+}
+
+.utama{
+    display: none;
+}
+
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0368ca;
+    background-color: #BAE5F2;
+    font-size: 14px;
+}
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #0368ca;
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 15px;
+    text-align: center;
+    color: #0368ca;
+    margin: 1;
+}
+
+.perusahaan{
+    background-color: #0368ca;
+    color: white;
+    padding: 3px;
+}
+
+.flex{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.profil{
+    width: 20%;
+    padding: 0 50px;
+    -ms-flex: 15%;
+    flex: 15%;
+}
+
+.vm{
+    width: 50%;
+    height: 400px;
+    overflow-y: scroll;
+    border: 30px solid white;
+    background-color: white;
+    -ms-flex: 85%;
+    flex: 85%;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.flex2{
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 50px;
+}
+
+.produk{
+    -ms-flex: 20%;
+    flex: 20%;
+    text-align: center;
+}
+
+.exp{
+    font-weight: 400;
+}
+
+.info{
+    outline: 1px solid #0368ca;
+    width: 40%;
+    font-weight: bold;
+    margin: auto;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
+.title2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.flex3{
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 150px;
+}
+
+.resep{
+    -ms-flex: 15%;
+    flex: 15%;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+}
+
+.namamakanan a{
+    color: black;
+}
+
+.resep a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-image: url(foto/footer.jpg);
+    background-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0368ca;
+}
+
+.flex4{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.promoimage{
+    padding: 20px 10px 20px 50px;
+}
+
+.promoimage2{
+    padding: 20px 10px;
+}
+.promo1{
+    width: 150px;
+    padding: 0 20px;
+}
+
+.pengumuman{
+    font-size: 20px;
+}
+
+.baca{
+    outline: 1px solid;
+    padding: 10px;
+    width: 95px;
+    font-weight: bold;
+}
+
+.layanan{
+    margin: auto;
+}
+
+.komersil{
+    list-style-type: none;
+    padding: 0 30px 0 0;
+    text-align: center;
+    margin: auto;
+}
+
+.inf{
+    outline: 1px solid;
+    border-radius: 25px;
+    display: inline;
+    font-size: 13px;
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0368ca;
+}
+
+.inf a{
+    color: white;
+}
+
+.inf:hover{
+    padding: 2px 10px;
+}
+
+.pro{
+    outline: 1px solid;
+    border-radius: 25px;
+    display: inline;
+    font-size: 13px;
+    padding: 3px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.pro a{
+    color: white;
+}
+
+.pro:hover{
+    padding: 2px 10px;
+}
+
+.flex5{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.chef{
+    padding: 30px 20px 0 100px;
+}
+
+.indolakto{
+    width: 700px;
+}
+
+.indolaktotitle{
+    font-size: 30px;
+}
+
+.indolaktoexplanation{
+    font-size: 16px;
+}
+
+.flex6{
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 150px;
+}
+
+.flexinfo{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.adress{
+    padding: 0 40px 0 0;
+}
+
+.layanankonsumen{
+    border-left: 1px solid;
+    padding: 0 0 0 8px;
+}
+
+.mustbesmaller{
+    font-size: 3px;
+}
+
+iframe{
+    padding: 10px;
+}
+
+.information{
+    color: white;
+    background-color: #0368ca;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.formulir{
+    color: white;
+    background-color: #0368ca;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.space2{
+    padding: 0 20px;
+}
+
+.a{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 394.5px;
+    height: 35px;
+}
+
+.b{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 190px;
+    height: 35px;
+}
+
+.c{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 394.5px;
+    height: 35px;
+    padding-bottom: 85px;
+}
+
+.d{
+    margin-left: 340px;
+}
+
+#e{
+    font-size: 16px;
+    background-color: darkslateblue;
+    border: 3px solid darkslateblue;
+    color: white;
+    font-weight: bold;
+}
+
+#e:hover{
+    background-color: rgb(40, 32, 95);;
+}
+
+.flexform{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+::placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.flex7{
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #0C426E;
+    vertical-align: center;
+}
+
+.indofood{
+    padding: 0 70px;
+}
+
+.site{
+    padding: 5px 120px 0 180px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.hak{
+    padding: 5px 60px 0 70px;
+    color: white;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.flex8{
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px 200px 30px 200px;
+}
+
+.picture{
+    padding: 140px 20px 120px 1px;
+}
+
+.picturee{
+    width: 250px;
+    height: 160px;
+}
+
+.attribute{
+    border-radius: 15px;
+    background-color: #0368ca;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.bio1{
+    padding-left: 20px;
+    line-height: 1.4;
+}
+
+.bio2{
+    padding-left: 20px;
+}
+
+.attribute a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: #0368ca;
+    text-align: center;
+}
+
+.flex9{
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px 320px 30px 320px;
+}
+
+.cu{
+    border-radius: 15px;
+    background-color: #0368ca;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.cc{
+    border-radius: 15px;
+    background-color: #0368ca;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.cu1{
+    margin-left: 100px;
+}
+
+.quote{
+    padding: 10px 20px;
+    background-color: white;
+    color: #0368ca;
+    margin: 50px 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
